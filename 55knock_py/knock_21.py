@@ -25,6 +25,14 @@ for i, ans in enumerate(list):
 #     処理
 # のようにして活用する。
 
+# 2日後に解いた回答
+li = [1,2,3,4,5]
+for idx, elem in enumerate(li):
+  if idx%2 == 0:
+    print(elem)
+
+# forの隣のidx, elemは順番に読まれるため、反対にしたら、出力は1,3になるため注意が必要
+
 # 模範解答 ====================================
 li = [1,2,3,4,5]
 for idx, elem in enumerate(li):
